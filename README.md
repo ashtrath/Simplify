@@ -25,4 +25,4 @@
 - [Gibbu](https://github.com/Gibbu) for [Radial Status](https://discordstyles.github.io/RadialStatus/base.css)
 - [mr-miner1](https://github.com/mr-miner1) for [Better Badges](https://github.com/mr-miner1/Better-Badges)
 - [GooseNest](https://github.com/Goose-Nest) for [Revert Rebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
-- Also Huge thanks for BD & Powercord for snippets and help!
+- Also Huge thanks for BD & Powercord servers for snippets and help!
