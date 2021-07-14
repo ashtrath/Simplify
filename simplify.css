@@ -427,8 +427,8 @@
 }
 
 /* Emoji Popouts */
-#app-mount .autocomplete-1vrmpx {
-  background-color: var(--background-floating);
+#app-mount .autocomplete-1vrmpx, .categoryHeader-O1zU94 {
+  background-color: var(--background-floating) !important;
 }
 #app-mount .selected-1Tbx07 {
   background-color: var(--background-tertiary);
