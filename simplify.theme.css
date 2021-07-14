@@ -1,0 +1,116 @@
+/**
+ * @name Simplify
+ * @description Simple Clean looking theme with blue colors.
+ * @author Ashtrath
+ * @version 1.0.0
+ * @authorId 2354831939099688962
+ */
+
+
+/* DONT TOUCH THIS!!! */
+@import url("https://dyzean.github.io/Simplify/simplify.css");
+
+/*  Read this before editing stuff!!!
+*
+*   > To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
+*      (You don't need to put a * at each line like I do, it's just for readability). See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
+*
+*   > You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledges in CSS.
+*
+*   > To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
+*/
+
+/* No scrollbars, Delete the line below if you want the scrollbar back */
+::-webkit-scrollbar { display: none;}.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.container-2Pjhx- { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .buttons-3JBrkn { padding-right: 10px !important;}
+
+/* Settings Modal, Delete the line below if you want the normal settings */
+#app-mount .baseLayer-35bLyl {	opacity: 1 !important;	transform: unset !important;	will-change: unset !important;}#app-mount .stop-animations * {	transition-property: inherit !important;	animation: inherit !important;}#app-mount .layer-3QrUeG.stop-animations:first-child::after {	content: "" !important;	position: fixed !important;	background: rgb(0, 0, 0) !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	margin: 0 !important;	padding: 0 !important;	opacity: 0.85 !important;	z-index: 999 !important;	pointer-events: none !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG {	position: absolute !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: var(--settingsmodalbackground) !important;	border-radius: 5px !important;	box-shadow: var(--elevation-high) !important;	width: var(--settingsmodalwidth) !important;	height: var(--settingsmodalheight) !important;	margin: auto !important;	padding: 0 !important;	overflow: hidden !important;	contain: unset !important;	z-index: 1000 !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG > div,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .standardSidebarView-3F1I7i {	position: static !important;	border-radius: unset !important;	width: 100% !important;	height: 100% !important;	margin: unset !important;	padding: unset !important;	overflow: hidden !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .sidebar-CFHs9e,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .contentColumnDefault-1VQkGM {	padding-top: 20px !important;	padding-bottom: 20px !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .sidebar-dLM-kh {	height: var(--settingsmodalheight) !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .repoHeader-2KfNvH {	max-width: calc(var(--settingsmodalwidth) - 256px) !important;;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .standardSidebarView-3F1I7i .editor {	height: calc(var(--settingsmodalheight) - 120px) !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj .tools-3-3s-N,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj .container-1sFeqf,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj .closeButton-1tv5uR {	position: absolute !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: transparent !important;	border: none !important;	border-radius: 0 !important;	width: 100% !important;	max-width: unset !important;	height: 100% !important;	max-height: unset !important;	margin: 0 !important;	padding: 0 !important;	opacity: 0 !important;	cursor: default !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj {	position: fixed !important;	top: 22px !important;	z-index: -1 !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .settingsToolbar-wu4yfQ {	display: none !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .header-2RyJ0Y {	max-width: calc(var(--settingsmodalwidth) - 730px) !important;}#app-mount .root-3R2ngo {	position: fixed !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: var(--settingsmodalbackground) !important;	border-radius: 5px !important;	box-shadow: var(--elevation-high) !important;	width: var(--settingsmodalwidth) !important;	height: var(--settingsmodalheight) !important;	margin: auto !important;	padding: 0 !important;	overflow: hidden !important;	contain: unset !important;	z-index: 1000 !important;}#app-mount .root-3R2ngo.enterDone-2zvtsK {	transform: unset !important;}#app-mount .perksModal-fSYqOq {	position: static !important;	border-radius: unset !important;	width: 100% !important;	height: 100% !important;	margin: unset !important;	padding: unset !important;}#app-mount .perksModal-fSYqOq::before {	width: var(--settingsmodalwidth) !important;	height: var(--settingsmodalheight) !important;	margin: auto !important;}#app-mount .perksModalContentWrapper-2HU6uL {	padding: 10px 0 10px !important;}#app-mount .root-3R2ngo .perksModal-fSYqOq .carousel-6MSnEI {	margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;}#app-mount .root-3R2ngo .closeWrapper-9ScmSq,#app-mount .root-3R2ngo .closeWrapper-9ScmSq .closeContent-I3JbQJ,#app-mount .root-3R2ngo .closeWrapper-9ScmSq .container-1sFeqf,#app-mount .root-3R2ngo .closeWrapper-9ScmSq .closeButton-1tv5uR {	position: absolute !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: transparent !important;	border: none !important;	border-radius: 0 !important;	width: 100% !important;	max-width: unset !important;	height: 100% !important;	max-height: unset !important;	margin: 0 !important;	padding: 0 !important;	opacity: 0 !important;	cursor: default !important;}#app-mount .root-3R2ngo .closeWrapper-9ScmSq {	position: fixed !important;	top: 22px !important;	z-index: -1 !important;}#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {  background-color: var(--background-secondary);  border-color: var(--background-tertiary);}
+
+
+/* ---- Discord Variables ---- */
+:root.theme-dark, .theme-light { /* I Don't support light theme, its just for "Create Server" modals */
+  /* Font Family */
+    --font-primary: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Settings Modal */
+    --settingsmodalbackground: transparent;
+    --settingsmodalwidth: 1000px;
+    --settingsmodalheight: 85vh;
+
+  /*  Header Color  */
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+
+  /*  Text Color  */
+    --text-normal: #f7f4f4;
+    --channels-default: #ddd5d3;
+    --interactive-normal: #EAE1DF;
+    --interactive-hover: #EAE1DF;
+    --interactive-active: #fff;
+    --interactive-muted: #505355;
+
+  /* Background Color */
+    --background-primary: #1c223a;
+    --background-secondary: #181d33;
+    --background-secondary-alt: #14192b;
+    --background-tertiary: #14192b;
+    --background-accent: #4d6a91;
+    --background-floating: #171d30;
+    --background-mentioned: rgba(0, 186, 254, 0.5);
+    --background-mentioned-hover: rgba(42, 196, 252, 0.63);
+
+  /* Scrollbars Color */
+    --scrollbar-thin-thumb: rgba(44, 49, 71, 0.658);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: rgba(67, 79, 134, 0.658);
+    --scrollbar-auto-track: rgba(24, 28, 51, 0.7);
+    --scrollbar-auto-scrollbar-color-thumb: rgba(67, 79, 134, 0.555);
+
+  /* Chat */
+    --channeltextarea-background: var(--background-primary);
+    --channeltextarea-background-hover: var(--background-secondary);
+
+/* ---- Addons Variables ---- */
+
+  /* --- Channel Indicator --- */
+    --indicator-hovered: rgba(79, 84, 92, 0.25);
+    --indicator-rounding: 0;
+    --indicator-border-info: 2px solid;
+
+    --indicator-selected: 112, 135, 215;
+    --indicator-selected-border: rgba(var(--indicator-selected));
+    --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+    --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+
+    --indicator-unread: 255, 255, 255;
+    --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+    --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+  
+    --indicator-connected: 67, 181, 129;
+    --indicator-connected-border: rgba(var(--indicator-connected));
+    --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+    --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
+
+  /* --- Radial Status --- */
+    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+    --rs-online-color: #43b581; /* Colour for online status */
+    --rs-idle-color: #faa61a; /* Colour for idle status */
+    --rs-dnd-color: #f04747; /* Colour for dnd status */
+    --rs-offline-color: #636b75; /* Colour for offline status */
+    --rs-streaming-color: #643da7; /* Colour for streaming status */
+    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --container-color: var(--background-floating);
+}
