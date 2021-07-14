@@ -14,7 +14,7 @@
 2. Place it in the BetterDiscord themes folder
 3. Enable Simplify in the themes tab
 
-###Powercord
+### Powercord
 
 **Coming Soon**
 
