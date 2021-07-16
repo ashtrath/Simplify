@@ -15,8 +15,10 @@
 3. Enable Simplify in the themes tab
 
 ### Powercord
-
-**Coming Soon**
+1. Clone the repo by typing 
+```sh
+cd powercord/src/powercord/themes && git clone https://github.com/Dyzean/Simplify
+```
 
 ## Credits
 
