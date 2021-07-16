@@ -159,6 +159,9 @@
 .separator-XqIyoz {
   background-color: var(--background-secondary) !important;
 }
+.text-3MU_QQ {
+  max-width: 485px;
+}
 
 /* Discovery */
 #app-mount .pageWrapper-1PgVDX {
@@ -217,6 +220,9 @@
 }
 .header-23xsNx {
   user-select: none;
+}
+.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background-color: var(--background-secondary) !important;
 }
 
 /* Mobile looks jump to present */
@@ -483,7 +489,7 @@
   background-color: var(--background-tertiary);
 }
 #app-mount .focused-2bY0OD {
-  background-color: var(--background-primary);
+  background-color: var(--background-tertiary);
 }
 #app-mount .searchAnswer-3Dz2-q,
 #app-mount .searchFilter-2ESiM3 {
@@ -705,8 +711,17 @@ ul[data-list-id="guildsnav"] > div[class^="scroller"] {
 .card-3AyPWq:hover {
   background: var(--background-tertiary);
 }
-.keybindShortcut-1BD6Z1 span {
+
+/* Buttons Color */
+#app-mount .bar-2Qqk5Z {
+  background: var(--background-secondary);
+}
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   background-color: var(--background-secondary);
+  border-color: var(--background-tertiary);
+}
+.dim-1l4L4y span, .keybindShortcut-1BD6Z1 span {
+  background-color: var(--background-secondary) !important;
   border: 1px solid var(--background-tertiary);
   box-shadow: inset 0 -4px 0 var(--background-tertiary) !important;
 }
@@ -755,6 +770,12 @@ ul[data-list-id="guildsnav"] > div[class^="scroller"] {
 .tierHeaderContent-3t3DoO {
   background: var(--background-tertiary);
 }
+.cardPrimaryEditable-3KtE4g {
+  background: var(--background-secondary);
+}
+.editCircle-ityklj, .iconWrapper-lS1uig {
+  background-color: var(--background-primary);
+}
 
 /* Payment Modal */
 #app-mount .root-1gCeng {
@@ -763,6 +784,7 @@ ul[data-list-id="guildsnav"] > div[class^="scroller"] {
 }
 #app-mount .footer-2gL1pp {
   background-color: var(--background-tertiary);
+  box-shadow: none;
 }
 #app-mount .paymentPane-3bwJ6A {
   background-color: var(--background-tertiary);
@@ -791,8 +813,11 @@ ul[data-list-id="guildsnav"] > div[class^="scroller"] {
   background-color: var(--background-primary);
 }
 #app-mount .tierBody-16Chc9,
-.perk-2WeBWW {
+.perk-2WeBWW, .expandedInfo-3kfShd {
   background-color: var(--background-tertiary) !important;
+}
+.roleIcon-F8XDd3 {
+  color: var(--background-accent);
 }
 
 /* Create Servers Modal */
@@ -806,6 +831,12 @@ ul[data-list-id="guildsnav"] > div[class^="scroller"] {
 }
 .container-UC8Ug1:hover {
   background-color: var(--background-tertiary);
+}
+.backButton-iA7KIs {
+  color: #747f8d;
+}
+.backButton-iA7KIs:hover {
+  text-decoration: underline;
 }
 
 /* ~~~~		  		     BD Support							~~~~ */
