@@ -10,7 +10,7 @@
 
 ### BetterDiscord
 
-1. Download the theme file [here](https://betterdiscord.app/)
+1. Download the theme file [here](https://betterdiscord.app/Download?id=385)
 2. Place it in the BetterDiscord themes folder
 3. Enable Simplify in the themes tab
 
