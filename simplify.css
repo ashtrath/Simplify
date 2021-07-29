@@ -2,9 +2,9 @@
 @import url("https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://goose-nest.github.io/GT-RevertRebrand/RevertRebrand.theme.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://dyzean.github.io/gradient-badge-userpopouts/donators.css");
 @import url("https://mr-miner1.github.io/Better-Badges/src/compiled.css");
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
 
 /* USRBG */
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
@@ -134,7 +134,6 @@
 }
 
 /* ~~~~		  		General							~~~~ */
-
 .circleIconButton-1QV--U {
   color: var(--background-accent) !important;
 }
@@ -187,6 +186,9 @@
 }
 .modeUnread-1qO3K1 > div > a > div > .icon-1DeIlz {
   color: var(--interactive-active);
+}
+.typeThread-3ESTm- .content-1x5b-n {
+  padding-left: 34px;
 }
 
 /* chat box*/
@@ -292,6 +294,9 @@
 .replying-1x3H0T,
 .mentioned-xhSam7 {
   background: rgba(151, 197, 250, 0.15) !important;
+}
+.mentioned-xhSam7:before {
+  background-color: var(--brand-experiment);
 }
 .numberBadge-2s8kKX.base-PmTxvP {
   background-color: var(--background-accent) !important;
@@ -433,6 +438,10 @@
 }
 .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .divider-ewBQKj {
   display: none;
+}
+.customStatus-oN4ZZY > .customStatusEmoji-3a2-Zo.customStatusSoloEmoji-1tDhmL:only-child {
+  margin-right: auto;
+  margin-left: auto;
 }
 .role-2irmRk {
   background-color: var(--background-primary);
