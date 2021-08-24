@@ -1232,33 +1232,23 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 button[aria-label="Send a gift"] {
   display: none;
 }
-.gifTag-kA7fXf,
-.textBadge-1iylP6 {
+.gifTag-kA7fXf {
   display: none;
 }
+.banner-2QYc2d:hover .premiumIconWrapper-1A-UH5 .textBadge-1iylP6,
 .banner-2QYc2d:hover .bannerOverlay-1uIerX,
 .banner-2QYc2d:hover .pencilIcon-XSi-VE {
   display: none;
 }
 
 /* Replaces Message Links with "Jump to Message" */
-[href^="https://discord.com/channels/"]
-{
-  line-height: 0;
-  font-size: 0;
-}
-[href^="https://discord.com/channels/"]::before
-{
-  content: "Jump to Message";
-  font-size: 16px;
-  font-weight: 500;
-}
-/* Canary */
+[href^="https://discord.com/channels/"],
 [href^="https://canary.discord.com/channels/"]
 {
   line-height: 0;
   font-size: 0;
 }
+[href^="https://discord.com/channels/"]::before,
 [href^="https://canary.discord.com/channels/"]::before
 {
   content: "Jump to Message";
