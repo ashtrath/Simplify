@@ -645,33 +645,20 @@
 }
 
 /* Home Icon */
-.tutorialContainer-2sGCg9 {
+.tutorialContainer-11ICd5 {
   position: fixed;
   z-index: 1;
-  background: var(--background-tertiary);
+  background: linear-gradient(var(--background-tertiary) 100%, transparent); /* Change percentage to get smoother blends. 85% is my sweet spot. */
 }
 .guilds-1SWlCJ .scroller-1Bvpku {
   contain: none !important;
   padding-top: 0;
 }
-.guilds-1SWlCJ .scroller-1Bvpku > [aria-label],
-.guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) {
+.guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) {
   margin-top: 55px;
 }
 .guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] {
   margin-top: 0px;
-}
-.wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
-  margin-top: 60px;
-}
-.tutorialContainer-2sGCg9 {
-  box-shadow: 0px 5px 5px var(--background-tertiary);
-}
-.unreadMentionsIndicatorTop-2-tcdU {
-  top: 47px;
-}
-ul[data-list-id="guildsnav"] > div[class^="scroller"] {
-  padding-top: 0 !important;
 }
 
 /* Tooltips */
